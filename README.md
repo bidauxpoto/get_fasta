@@ -31,3 +31,5 @@ Options:
                         stdin pipe but continue reading in order to avoid
                         pustream SIGPIPE
 ```
+
+**TO DO** Remove dependencies from vfork
