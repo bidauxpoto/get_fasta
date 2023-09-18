@@ -1,4 +1,4 @@
-{% set name = "Package Name" %}
+{% set name = "get_fasta" %}
 {% set version = "1.0" %}
 
 package:
@@ -10,10 +10,10 @@ source:
 
 requirements:
   host:
-    - perl
+    - python>=3
   run:
-    - perl
+    - python>=3
 
 about:
-  home: URL to Github
-  summary: Something something
+  home: https://github.com/bidauxpoto/get_fasta
+  summary: Reads a FASTA file and retrieves the blocks corresponding to SPEC
