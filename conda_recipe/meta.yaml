@@ -1,0 +1,19 @@
+{% set name = "Package Name" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source: 
+  path: ../src
+
+requirements:
+  host:
+    - perl
+  run:
+    - perl
+
+about:
+  home: URL to Github
+  summary: Something something
